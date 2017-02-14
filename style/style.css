@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica;
+}
+
+.navBar {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.FirstScreen {
+    background-image: url(../img/background-first.png);
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.titleDiv {
+    position: absolute;
+    top:50%;
+    height:10em;
+    margin-top:-5em;
+    padding-left: 40px;
+    height: auto;
+}
+
+.ordinaryLine {
+    color: white;
+    font-size: 44px;
+    font-family: "HelveticaNeue-CondensedBold";
+}
+.specialLine {
+    color: white;
+    font-size: 56px;
+    font-family: "HelveticaNeue-CondensedBold";
+}
+
+.singleTitle {
+    color: white;
+    font-size: 24px;
+    font-family: "HelveticaNeue-Bold";
+    text-align: center;
+    bottom: 30px;
+}
+
+.aboutMe {
+    position: relative;
+    top: auto;
+    height: 1000px;
+    width: 1000px;
+}
