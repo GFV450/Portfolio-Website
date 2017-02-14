@@ -1,11 +1,11 @@
 body {
     font-family: Helvetica;
+    height: auto;
 }
 
 .navBar {
     position: relative;
-    height: 100px;
-    width: 100%;
+    height: 20vh;
 }
 
 .FirstScreen {
@@ -13,14 +13,14 @@ body {
     position: relative;
     background-size: cover;
     background-position: bottom;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     vertical-align: middle;
 }
 
 .titleDiv {
     position: absolute;
-    top:50%;
+    top:45%;
     height:10em;
     margin-top:-5em;
     padding-left: 40px;
@@ -29,12 +29,12 @@ body {
 
 .ordinaryLine {
     color: white;
-    font-size: 44px;
+    font-size: 3.3vw;
     font-family: "HelveticaNeue-CondensedBold";
 }
 .specialLine {
     color: white;
-    font-size: 56px;
+    font-size: 4vw;
     font-family: "HelveticaNeue-CondensedBold";
 }
 
@@ -48,7 +48,5 @@ body {
 
 .aboutMe {
     position: relative;
-    top: auto;
-    height: 1000px;
-    width: 1000px;
+    height: 100vh;
 }

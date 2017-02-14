@@ -7,10 +7,9 @@ export default class App extends Component {
   render() {
     return (
         <div className="App">
-            <navBar text="Hello there" />
+            <navBar />
             <FirstScreen />
-            <AboutMe>
-            </AboutMe>
+            <AboutMe />
         </div>
     );
   }

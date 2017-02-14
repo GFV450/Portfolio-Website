@@ -8,7 +8,6 @@ export default function(props) {
             <TitleDescription>
                 title = "I’m glad you’re here. Let me tell you a bit about myself."
             </TitleDescription>
-            {props.children}
         </div>
     )
 }
