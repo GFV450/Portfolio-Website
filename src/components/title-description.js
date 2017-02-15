@@ -2,9 +2,9 @@ import React, {Component} from 'react'
 
 export default function(props) {
     return (
-        <div className="">
-            <h1>{props.title}</h1>
-            <div>{props.text}</div>
+        <div className="titleDescription">
+            <h1 className="skillTitle">{props.title}</h1>
+            <p className="skillDescription">{props.text}</p>
         </div>
     )
 }

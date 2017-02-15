@@ -1,13 +1,19 @@
 import React, {Component} from 'react'
-import TitleDescription from './title-description'
+import Skill from './skill'
 import SingleTitle from './single-title'
 
 export default function(props) {
+    const tds = [
+        {title:"AAAA", text:"111111"},
+        {title:"BBBB", text:"222222"},
+        {title:"CCCC", text:"333333"},
+        {title:"DDDD", text:"444444"},
+        {title:"EEEE", text:"555555"}
+    ];
+
     return (
         <div className="aboutMe">
-            <TitleDescription>
-                title = "I’m glad you’re here. Let me tell you a bit about myself."
-            </TitleDescription>
+            <Skill titleDescriptions={tds} />
         </div>
     )
 }
