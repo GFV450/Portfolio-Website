@@ -2,18 +2,20 @@ import React, {Component} from 'react'
 import TitleDescription from './title-description'
 
 export default function(props) {
-    const icons = props.icons.map((item,i) => {
-        return <img className="icon" src={props.source} height={props.height} width={props.width} />;
+    const skills = props.itd.map((item, i) => {
+        return (
+            <div styles={styles} className="skill" key={i}>
+                <img className="icon" src={item.source} />
+                <TitleDescription title={item.title} text={item.text} />
+            </div>
+        )
     });
 
-    const titleDescriptions = props.titleDescriptions.map((item, i) => {
-        return <TitleDescription key={i} title={item.title} text={item.text} />;
-    });
-
-    return (
-        <div className="skill">
-            {icons}
-            {titleDescriptions}}
-        </div>
-    )
+    return <div>{skills}</div>
 }
+
+
+const styles = {
+    fontSize: "22px",
+    fontFamily: "Georgia"
+};

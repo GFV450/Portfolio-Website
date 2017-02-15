@@ -9,7 +9,7 @@ body {
 }
 
 .FirstScreen {
-    background-image: url(../img/background-first.png);
+    background-image: url(../img//background/background-first.png);
     position: relative;
     background-size: cover;
     background-position: bottom;
@@ -53,4 +53,8 @@ body {
 
 .skill {
     height: 30vh;
+}
+.icon {
+    height: 100px;
+    width: 100px;
 }
