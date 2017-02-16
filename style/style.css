@@ -55,24 +55,26 @@ body {
     justify-content: space-around;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
 .aboutTitle {
     font-family: "HelveticaNeue-Light";
     margin-bottom: 0px;
     display: flex;
-    justify-content: center;
+    padding-left: 3.5vw;
+    padding-bottom: 20px;
 }
 
 .aboutDesc {
     font-family: "HelveticaNeue-Light";
-    color: #656565;
+    color: #505050;
     margin-bottom: 0px;
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding-left: 18vw;
-    padding-right: 18vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
 }
 
 .skillsBox {
@@ -88,10 +90,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    align-content: center;
-
     height: 150px;
-    width: 400px;
+    width: 350px;
 }
 .icon {
     display: flex;
@@ -111,6 +111,11 @@ body {
     font-family: "HelveticaNeue-Light";
     font-size: 14px;
     width: 225px;
-    color: #656565;
+    color: #505050;
     margin: 0;
+}
+
+/*THIRD SCREEN*/
+.Intellihome {
+    height: 100vh;  
 }
