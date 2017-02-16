@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Skill from './skill'
-import SingleTitle from './single-title'
+import TitleDescription from './title-description'
 
 export default function(props) {
     const skInfo = [
@@ -36,8 +36,15 @@ export default function(props) {
         }
     ];
 
+    const ti = "I’m glad you’re here. Let me tell you a bit about myself."
+    const desc = "My name is Gian Franco Vitola, and I’m a developer in the San Francisco Bay Area. I’m a multidisciplinary \
+                  individual who strives to architect, design, execute, and grow engaging products across a wide spectrum of \
+                  fields in software engineering."
+
     return (
         <div className="aboutMe">
+            <TitleDescription titleCN="aboutTitle" descCN="aboutDesc" title={ti} text={desc} />
+            <h3 className="aboutTitle">These are some of my areas of expertise:</h3>
             <Skill itd={skInfo} />
         </div>
     )

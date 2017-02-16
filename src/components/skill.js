@@ -6,12 +6,12 @@ export default function(props) {
         return (
             <div styles={styles} className="skill" key={i}>
                 <img className="icon" src={item.source} />
-                <TitleDescription title={item.title} text={item.text} />
+                <TitleDescription titleCN="skillTitle" descCN = "skillDesc" title={item.title} text={item.text} />
             </div>
         )
     });
 
-    return <div>{skills}</div>
+    return <div className="skillsBox">{skills}</div>
 }
 
 

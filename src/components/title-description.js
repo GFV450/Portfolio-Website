@@ -3,8 +3,8 @@ import React, {Component} from 'react'
 export default function(props) {
     return (
         <div className="titleDescription">
-            <h1 className="skillTitle">{props.title}</h1>
-            <p className="skillDescription">{props.text}</p>
+            <h3 className={props.titleCN}>{props.title}</h3>
+            <p className={props.descCN}>{props.text}</p>
         </div>
     )
 }

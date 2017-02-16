@@ -1,6 +1,10 @@
 body {
-    font-family: Helvetica;
+    font-family: "HelveticaNeue-Regular";
     height: auto;
+}
+
+h3 {
+    margin: 0;
 }
 
 .navBar {
@@ -38,7 +42,7 @@ body {
     font-family: "HelveticaNeue-CondensedBold";
 }
 
-.singleTitle {
+.title2 {
     color: white;
     font-size: 24px;
     font-family: "HelveticaNeue-Bold";
@@ -46,15 +50,63 @@ body {
     bottom: 30px;
 }
 
+/*SECOND SREEN*/
 .aboutMe {
+    margin-right: 18vw;
+    margin-left: 18vw;
+    padding-top: 5vh;
     position: relative;
     height: 100vh;
+    align-items: flex-start;
+}
+
+.aboutTitle {
+    font-family: "HelveticaNeue-Light";
+    padding-bottom: 5px;
+}
+
+.aboutDesc {
+    font-family: "HelveticaNeue-Light";
+    color: #656565;
+    padding-bottom: 5px;
+}
+
+.skillsBox {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+
 }
 
 .skill {
-    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+
+    height: 175px;
+    width: 400px;
 }
 .icon {
-    height: 100px;
-    width: 100px;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+
+}
+
+.skillTitle {
+    font-family: "Helvetica Neue Regular";
+    font-size: 22px;
+    margin: 0;
+}
+
+.skillDesc {
+    font-family: "HelveticaNeue-Light";
+    font-size: 14px;
+    width: 225px;
+    color: #656565;
+    margin: 0;
 }
