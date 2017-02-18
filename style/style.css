@@ -3,11 +3,45 @@ body {
     height: auto;
 }
 
+/*NAV BAR*/
 .navBar {
-    position: relative;
-    height: 20vh;
+    position: fixed;
+    z-index: 1;
+    height: 60px;
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: thin;
+    opacity: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.navName {
+    margin: 0px;
+    color: #1490E2;
+}
+
+.navButtonsBox {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.navButtons {
+    background-color: rgba(255, 255, 255, 0);
+    color: #1490E2;
+    border: none;
+}
+
+.navButtons:active {
+    outline: none;
+}
+/*FIRST SCREEN*/
 .FirstScreen {
     background-image: url(../img//background/background-first.png);
     position: relative;
@@ -53,10 +87,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
     padding-left: 8vw;
     padding-right: 8vw;
+}
+.aboutTD {
+
 }
 
 .aboutTitle {
@@ -116,6 +153,47 @@ body {
 }
 
 /*THIRD SCREEN*/
-.Intellihome {
-    height: 100vh;  
+.intellihome {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.intelliProject {
+    width: 91vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.website {
+    width: 780px;
+    height: 500px;
+}
+
+.intelliTD {
+    width: 350px;
+}
+
+.intelliTitle {
+    font-family: "TrebuchetMS-Bold";
+    font-size: 64px;
+
+}
+
+.intelliDesc {
+    font-family: "HelveticaNeue-Regular";
+    text-align: justify;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.intelliButton {
+    background-color: #202020;
+    color: white;
+    border: none;
+    font-size: 40px;
 }

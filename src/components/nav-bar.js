@@ -3,8 +3,12 @@ import React, {Component} from 'react'
 export default function(props) {
     return (
         <div className="navBar">
-            <h1>{props.text}</h1>
-            <h2>{props.texts}</h2>
+            <h3 className="navName">GFV</h3>
+            <div className="navButtonsBox">
+                <button className="navButtons" type="button">ABOUT ME</button>
+                <button className="navButtons" type="button">PROJECTS</button>
+                <button className="navButtons" type="button">CONTACT</button>
+            </div>
         </div>
     )
 }
