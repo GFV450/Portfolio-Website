@@ -2,13 +2,13 @@ import React, {Component} from 'react'
 
 export default function(props) {
     return (
-        <div className="navBar">
-            <h3 className="navName">GFV</h3>
-            <div className="navButtonsBox">
-                <button className="navButtons" type="button">ABOUT ME</button>
-                <button className="navButtons" type="button">PROJECTS</button>
-                <button className="navButtons" type="button">CONTACT</button>
-            </div>
-        </div>
+        <nav className="navBar">
+        <h3 className="navName">GFV</h3>
+            <ul className="navButtonsBox">
+                <li><a className="navButtons" href="#about">ABOUT ME</a></li>
+                <li><a className="navButtons" href="#intelliProject">PROJECTS</a></li>
+                <li><a className="navButtons" href="#">CONTACT</a></li>
+            </ul>
+        </nav>
     )
 }

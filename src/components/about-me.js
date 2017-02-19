@@ -44,7 +44,7 @@ export default function(props) {
                  specialties, software development related or otherwise."
 
     return (
-        <div className="aboutMe">
+        <div className="aboutMe" id="about">
             <TitleDescription tdCN="aboutTD" titleCN="aboutTitle" descCN="aboutDesc" title={ti} text={desc} />
             <div className ="titleSkills">
                 <h3 className="aboutTitle">These are some of my areas of expertise:</h3>

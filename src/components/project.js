@@ -5,9 +5,9 @@ export default function(props) {
     return (
         <div className={props.projectName}>
             <img className="website" src={props.src} />
-            <div>
+            <div className ="infoBox">
                 <TitleDescription tdCN={props.tdCN} titleCN={props.titleCN} descCN = {props.descCN} title={props.title} text={props.text} />
-                <button className="intelliButton" type="button">Click Me!</button>
+                <a className={props.buttonCN} href={props.buttonRef}>{props.buttonDesc}</a>
             </div>
         </div>
     )

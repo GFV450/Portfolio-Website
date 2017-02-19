@@ -3,6 +3,12 @@ body {
     height: auto;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
 /*NAV BAR*/
 .navBar {
     position: fixed;
@@ -27,6 +33,7 @@ body {
 }
 
 .navButtonsBox {
+    margin: 0px;
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -38,8 +45,8 @@ body {
     border: none;
 }
 
-.navButtons:active {
-    outline: none;
+.navButtons:hover {
+
 }
 /*FIRST SCREEN*/
 .FirstScreen {
@@ -158,6 +165,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .intelliProject {
@@ -172,6 +180,12 @@ body {
 .website {
     width: 780px;
     height: 500px;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .intelliTD {
@@ -192,8 +206,14 @@ body {
 }
 
 .intelliButton {
+    display: block;
     background-color: #202020;
     color: white;
     border: none;
     font-size: 40px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+
 }
