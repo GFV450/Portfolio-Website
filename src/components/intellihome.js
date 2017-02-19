@@ -4,6 +4,7 @@ import Project from './project'
 export default function(props) {
     const projectInfo = {
             projectName: "intelliProject",
+            imgType: "website",
             src: "../img/project/intellihome.png",
             title: "IntelliHome",
             text: "A curated smart home marketplace where you shop based on features you desire instead of products",
