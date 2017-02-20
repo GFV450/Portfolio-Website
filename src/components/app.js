@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import FirstScreen from './first-screen'
 import AboutMe from './about-me'
 import NavBar from './nav-bar'
-import Intellihome from './intellihome'
+import Projects from './projects'
 
 export default class App extends Component {
 
@@ -12,7 +12,7 @@ export default class App extends Component {
             <NavBar />
             <FirstScreen />
             <AboutMe />
-            <Intellihome />
+            <Projects />
         </div>
     );
   }
