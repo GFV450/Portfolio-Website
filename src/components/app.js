@@ -3,6 +3,7 @@ import FirstScreen from './first-screen'
 import AboutMe from './about-me'
 import NavBar from './nav-bar'
 import Projects from './projects'
+import Contact from './contact'
 
 export default class App extends Component {
 
@@ -13,6 +14,7 @@ export default class App extends Component {
             <FirstScreen />
             <AboutMe />
             <Projects />
+            <Contact />
         </div>
     );
   }

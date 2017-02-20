@@ -6,8 +6,8 @@ export default function(props) {
         <h3 className="navName">GFV</h3>
             <ul className="navButtonsBox">
                 <li><a className="navButtons" href="#about">ABOUT ME</a></li>
-                <li><a className="navButtons" href="#intelliProject">PROJECTS</a></li>
-                <li><a className="navButtons" href="#">CONTACT</a></li>
+                <li><a className="navButtons" href="#projects">PROJECTS</a></li>
+                <li><a className="navButtons" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     )

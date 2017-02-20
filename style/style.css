@@ -45,10 +45,7 @@ ul {
     border: none;
 }
 
-.navButtons:hover {
-
-}
-/*FIRST SCREEN*/
+/*HOME SCREEN*/
 .FirstScreen {
     background-image: url(../img//background/background-first.png);
     position: relative;
@@ -87,7 +84,7 @@ ul {
     bottom: 30px;
 }
 
-/*SECOND SREEN*/
+/*ABOUT SCREEN*/
 .aboutMe {
     position: relative;
     height: 100vh;
@@ -159,10 +156,14 @@ ul {
     margin: 0;
 }
 
-/*THIRD SCREEN*/
+/*PROJECTS*/
 .projectsBox {
     padding-left: 52px;
     padding-right: 52px;
+}
+
+.projects {
+
 }
 
 .intellihome {
@@ -220,5 +221,58 @@ ul {
     height: 75px;
     text-align: center;
     line-height: 75px;
+}
 
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.contactTD {
+    display: flex;
+    justify-content: center;
+}
+
+.contactTitle {
+    text-align: center;
+    font-size: 96px;
+    margin: 0px;
+}
+
+.contactDesc {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.methodBox {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.contactMethod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.methodImage {
+    width: 128px;
+    height: 128px;
+}
+
+.methodTitle {
+    padding-top: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.methodHL {
+    margin: 0px;
 }

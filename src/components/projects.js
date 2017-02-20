@@ -13,7 +13,7 @@ export default function(props) {
             },
             {
                 projectName: "iChallenge",
-                src: "../img/project/Rectangle.png",
+                src: "../img/project/iChallenge.png",
                 title: "iChallenge",
                 text: "An app made for challenging your friends to have new experiences and break their day to day routines",
                 buttonRef: "shopintellihome.com",
