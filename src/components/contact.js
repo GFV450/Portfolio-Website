@@ -5,10 +5,16 @@ import TitleDescription from './title-description'
 export default function(props) {
     const contacts = [
         {
-            src: "img/linkedin.png",
-            title: "Linkedin",
+            src: "img/email.png",
+            title: "E-mail",
             contactRef: "shopintellihome.com",
-            contactDesc: "Profile"
+            contactDesc: "gfv450@gmail.com"
+        },
+        {
+            src: "img/phone.png",
+            title: "Phone",
+            contactRef: "shopintellihome.com",
+            contactDesc: "415-963-2531"
         },
         {
             src: "img/linkedin.png",
@@ -17,20 +23,8 @@ export default function(props) {
             contactDesc: "Profile"
         },
         {
-            src: "img/linkedin.png",
-            title: "Linkedin",
-            contactRef: "shopintellihome.com",
-            contactDesc: "Profile"
-        },
-        {
-            src: "img/linkedin.png",
-            title: "Linkedin",
-            contactRef: "shopintellihome.com",
-            contactDesc: "Profile"
-        },
-        {
-            src: "img/linkedin.png",
-            title: "Linkedin",
+            src: "img/github.png",
+            title: "GitHub",
             contactRef: "shopintellihome.com",
             contactDesc: "Profile"
         }
@@ -40,7 +34,7 @@ export default function(props) {
         tdCN: "contactMe",
         titleCN: "contactTitle",
         descCN: "contactDesc",
-        title: "CONTACT ME",
+        title: "Contact Me",
         text: "I'm looking forward to hearing from you. Please contact me anytime!"
     }
 

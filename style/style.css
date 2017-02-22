@@ -17,7 +17,7 @@ ul {
     width: 100vw;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.8);
     border-bottom-style: solid;
     border-color: rgba(0, 0, 0, 0.2);
     border-width: thin;
@@ -187,6 +187,7 @@ ul {
 .projectImage {
     width: 780px;
     height: 520px;
+    -webkit-perspective: 1000px;
 }
 
 .infoBox {
@@ -222,13 +223,14 @@ ul {
     text-align: center;
     line-height: 75px;
 }
-
+/*CONTACT*/
 .contact {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 120px;
+    justify-content: center;
+    background-color: #FAFAFA;
 }
 
 .contactTD {
@@ -251,8 +253,8 @@ ul {
 
 .methodBox {
     display: flex;
-    justify-content: space-around;
-    width: 100vw;
+    justify-content: space-between;
+    width: 70vw;
     padding-top: 50px;
 }
 
