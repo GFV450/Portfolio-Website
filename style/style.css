@@ -46,7 +46,7 @@ ul {
 }
 
 /*HOME SCREEN*/
-.FirstScreen {
+.firstScreen {
     background-image: url(../img//background/background-first.png);
     position: relative;
     background-size: cover;
@@ -54,35 +54,31 @@ ul {
     height: 100vh;
     width: 100%;
     vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 
-.titleDiv {
-    position: absolute;
-    top:45%;
-    height:10em;
-    margin-top:-5em;
-    padding-left: 40px;
-    height: auto;
+.typewriterBox {
+    height: 202px;
+    padding-left: 20px;
 }
 
-.ordinaryLine {
+.smallTW {
     color: white;
+    line-height: 50px;
     font-size: 3.3vw;
     font-family: "HelveticaNeue-CondensedBold";
 }
-.specialLine {
+
+.bigTW {
+    line-height: 60px;
     color: white;
     font-size: 4vw;
     font-family: "HelveticaNeue-CondensedBold";
 }
 
-.title2 {
-    color: white;
-    font-size: 24px;
-    font-family: "HelveticaNeue-Bold";
-    text-align: center;
-    bottom: 30px;
-}
+/*TERMINAL SCREEN*/
+
 
 /*ABOUT SCREEN*/
 .aboutMe {
@@ -187,7 +183,6 @@ ul {
 .projectImage {
     width: 780px;
     height: 520px;
-    -webkit-perspective: 1000px;
 }
 
 .infoBox {

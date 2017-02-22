@@ -1,10 +1,14 @@
 import React, {Component} from 'react'
-import ScreenTitle from './intro-title'
+import Typewriter from './typewriter'
 
 export default function(props) {
     return (
-        <div className="FirstScreen">
-            <ScreenTitle lineOne="WELL ARCHITECTED" lineTwo="FLAWLESSLY DESIGNED" lineThree="PRODUCT ENGINEERING"/>
+        <div className="firstScreen">
+            <div className="typewriterBox">
+                <Typewriter typewriterCN="smallTW" speed={50} delay={0} tag="pre" text={lineOne} randomSpeed={true} />
+                <Typewriter typewriterCN="smallTW" speed={50} delay={1750} tag="pre" text={"FLAWLESSLY DESIGNED"} randomSpeed={true} />
+                <Typewriter typewriterCN="bigTW" speed={50} delay={3600} tag="pre" text={"PRODUCT ENGINEERING"} randomSpeed={true} />
+            </div>
         </div>
     )
 }
