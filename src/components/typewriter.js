@@ -52,11 +52,12 @@ export default class Typewriter extends Component {
     }
 
     render() {
-        return <div className={this.props.typewriterCN}>{this.state.text}</div>;
+        return <pre className={this.props.typewriterCN}>{this.state.text}</pre>;
     }
 }
 
 Typewriter.defaultProps = {
     speed: 80,
-    tag: 'p'
+    tag: 'p',
+    delay: 0
 };

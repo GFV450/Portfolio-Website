@@ -53,21 +53,8 @@ ul {
     background-position: bottom;
     height: 100vh;
     width: 100%;
-    vertical-align: middle;
     display: flex;
     align-items: center;
-}
-
-.typewriterBox {
-    height: 202px;
-    padding-left: 20px;
-}
-
-.smallTW {
-    color: white;
-    line-height: 50px;
-    font-size: 3.3vw;
-    font-family: "HelveticaNeue-CondensedBold";
 }
 
 .bigTW {
@@ -75,10 +62,19 @@ ul {
     color: white;
     font-size: 4vw;
     font-family: "HelveticaNeue-CondensedBold";
+    padding-left: 20px;
+    height: 180px;
 }
 
 /*TERMINAL SCREEN*/
-
+.terminal {
+    background-image: url(../img//background/test.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
 
 /*ABOUT SCREEN*/
 .aboutMe {

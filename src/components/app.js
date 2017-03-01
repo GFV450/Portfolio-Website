@@ -4,13 +4,13 @@ import AboutMe from './about-me'
 import NavBar from './nav-bar'
 import Projects from './projects'
 import Contact from './contact'
+import Terminal from './terminal'
 
 export default class App extends Component {
 
   render() {
     return (
         <div className="App">
-            <NavBar />
             <FirstScreen />
             <AboutMe />
             <Projects />
