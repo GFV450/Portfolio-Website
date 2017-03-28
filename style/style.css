@@ -45,16 +45,24 @@ ul {
     border: none;
 }
 
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 6000% 0; }
+}
+
 /*HOME SCREEN*/
 .firstScreen {
-    background-image: url(../img//background/background-first.png);
+    background-image: url(../img/background/more_code.png);
     position: relative;
-    background-size: cover;
-    background-position: bottom;
+    background-size: auto;
+    background-position: center;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
+    background-repeat: repeat-x;
+
+	animation: animatedBackground 2000s linear infinite;
 }
 
 .bigTW {
@@ -87,6 +95,7 @@ ul {
     padding-bottom: 2vh;
     padding-left: 8vw;
     padding-right: 8vw;
+    /*background-color: #FAFAFA;*/
 }
 .aboutTD {
 
@@ -218,15 +227,27 @@ ul {
 .contact {
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
 }
 
-.contactTD {
+.contactBox {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97vw;
+    height: 94vh;
+    border: 1.2px;
+    border-color: #F1F1F1;
+    border-style: solid;
+    padding-bottom: 15px;
+    background-color: #F9F9F9;
+}
+
+.contactMe {
+
 }
 
 .contactTitle {
@@ -256,8 +277,8 @@ ul {
 }
 
 .methodImage {
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
 }
 
 .methodTitle {
@@ -268,4 +289,9 @@ ul {
 
 .methodHL {
     margin: 0px;
+}
+
+.Resume {
+    font-size: 24px;
+    padding-top: 50px;
 }

@@ -27,6 +27,12 @@ export default function(props) {
             title: "GitHub",
             contactRef: "shopintellihome.com",
             contactDesc: "Profile"
+        },
+        {
+            src: "img/resume.png",
+            title: "Resume",
+            contactRef: "google.com",
+            contactDesc: "PDF"
         }
     ]
 
@@ -40,8 +46,10 @@ export default function(props) {
 
     return (
         <div className="contact" id="contact" >
-            <TitleDescription {...tdInfo} />
-            <ContactMethod contactArray={contacts} />
+            <div className="contactBox">
+                <TitleDescription {...tdInfo} />
+                <ContactMethod contactArray={contacts} />
+            </div>
         </div>
     )
 }
