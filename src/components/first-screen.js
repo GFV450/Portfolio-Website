@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Typewriter from './typewriter'
+import NavBar from "./nav-bar"
 
 export default function(props) {
 const text = "WELL ARCHITECTED \n FLAWLESSLY DESIGNED \n PRODUCT ENGINEERING"
