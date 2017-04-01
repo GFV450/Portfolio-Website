@@ -215,13 +215,14 @@ ul {
 .projectButton {
     display: block;
     background-color: #202020;
-    color: white;
+    color: white !important;
     border: none;
     font-size: 32px;
     width: 250px;
     height: 75px;
     text-align: center;
     line-height: 75px;
+    text-decoration: none !important;
 }
 /*CONTACT*/
 .contact {
