@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
         <div className="App">
-            // <NavBar />
+            <NavBar />
             <FirstScreen />
             <AboutMe />
             <Projects />
