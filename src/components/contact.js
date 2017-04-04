@@ -5,31 +5,31 @@ import TitleDescription from './title-description'
 export default function(props) {
     const contacts = [
         {
-            src: "img/email.png",
+            src: "img/icons/email.png",
             title: "E-mail",
             contactRef: "mailto:gfv450@gmail.com",
             contactDesc: "gfv450@gmail.com"
         },
         {
-            src: "img/phone.png",
+            src: "img/icons/phone.png",
             title: "Phone",
             contactRef: "tel:+14159632531",
             contactDesc: "415-963-2531"
         },
         {
-            src: "img/linkedin.png",
+            src: "img/icons/linkedin.png",
             title: "Linkedin",
             contactRef: "https://www.linkedin.com/in/gfvitola/",
             contactDesc: "Profile"
         },
         {
-            src: "img/github.png",
+            src: "img/icons/github.png",
             title: "GitHub",
             contactRef: "https://github.com/GFV450",
             contactDesc: "Profile"
         },
         {
-            src: "img/resume.png",
+            src: "img/icons/resume.png",
             title: "Resume",
             contactRef: "https://drive.google.com/file/d/0B24DfMDOOKV3UC1rb2ZwaVUwUTQ/view?usp=sharing",
             contactDesc: "PDF"
