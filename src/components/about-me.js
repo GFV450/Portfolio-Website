@@ -37,7 +37,7 @@ export default function(props) {
     ];
 
     const ti = "I'm glad you're here. Let me tell you a bit about myself."
-    const desc = "My name is Gian Franco Vitola, and I’m a software developer in the San Francisco Bay Area. However, \
+    const desc = "My name is Gian Franco Vitola, and I'm a software developer in the San Francisco Bay Area. However, \
                  it is important to note that, above all, I'm a maker who will undoubtedly go to great lengths to transform \
                  his vision into reality. This made me become a multidisciplinary individual who strives to architect, \
                  design, execute, and grow engaging products while employing a wide array of tools from different  \
