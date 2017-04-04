@@ -58,7 +58,7 @@ a {
 
 /*HOME SCREEN*/
 .firstScreen {
-    background-image: url(../img/background/more_codes.png);
+    background-image: url(../img/background/home-background.jpg);
     position: relative;
     background-size: auto;
     background-position: top;
@@ -102,9 +102,10 @@ a {
     padding-bottom: 2vh;
     padding-left: 8vw;
     padding-right: 8vw;
-    background-image: url(../img/background/about-background.png);
+    background-image: url(../img/background/about-background.jpg);
     /*background-color: #E3E6E6;*/
     background-position: top;
+    background-size: contain;
 }
 .aboutTD {
 
