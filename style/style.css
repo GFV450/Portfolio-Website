@@ -63,12 +63,19 @@ a {
     background-size: auto;
     background-position: top;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+
+    background-repeat: repeat-x;
+	animation: animatedBackground 2000s linear infinite;
+}
+
+.gradient {
     display: flex;
     align-items: center;
-    background-repeat: repeat-x;
-
-	animation: animatedBackground 2000s linear infinite;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.0), rgba(237, 239, 238, 1)); /* Standard syntax; must be last */
 }
 
 .bigTW {
@@ -79,6 +86,7 @@ a {
     padding-left: 20px;
     height: 180px;
     text-shadow: 1px 1px black;
+    overflow: visible;
 }
 
 /*TERMINAL SCREEN*/
@@ -105,13 +113,15 @@ a {
     background-image: url(../img/background/about-background.jpg);
     /*background-color: #E3E6E6;*/
     background-position: top;
-    background-size: contain;
+    background-size: cover;
 }
 .aboutTD {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutTitle {
+    display: flex;
     font-family: "HelveticaNeue-Light";
     margin-bottom: 0px;
     display: flex;
@@ -120,6 +130,7 @@ a {
 }
 
 .aboutDesc {
+    display: flex;
     font-family: "HelveticaNeue-Light";
     color: #505050;
     margin-bottom: 0px;
@@ -154,12 +165,14 @@ a {
 }
 
 .skillTitle {
+    display: flex;
     font-family: "HelveticaNeue-Regular";
     font-size: 22px;
     margin: 0;
 }
 
 .skillDesc {
+    display: flex;
     font-family: "HelveticaNeue-Light";
     font-size: 14px;
     width: 225px;
