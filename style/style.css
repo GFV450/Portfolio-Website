@@ -13,6 +13,11 @@ a {
     text-decoration: none !important;
 }
 
+.app {
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
 /*NAV BAR*/
 .navBar {
     position: fixed;
@@ -102,22 +107,23 @@ a {
 /*ABOUT SCREEN*/
 .aboutMe {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 8vh;
     padding-bottom: 2vh;
     padding-left: 8vw;
     padding-right: 8vw;
     background-image: url(../img/background/about-background.jpg);
-    /*background-color: #E3E6E6;*/
     background-position: top;
     background-size: cover;
 }
 .aboutTD {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .aboutTitle {
@@ -138,6 +144,10 @@ a {
     justify-content: center;
     padding-left: 3.5vw;
     padding-right: 3.5vw;
+}
+
+.skillSection {
+
 }
 
 .skillsBox {
@@ -182,33 +192,41 @@ a {
 
 /*PROJECTS*/
 .projectsBox {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 52px;
     padding-right: 52px;
 }
 
 .projects {
-
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .intellihome {
-    width: 91vw;
-    height: 100vh;
+    max-width: 91vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .iChallenge {
-    width: 91vw;
-    height: 100vh;
+    max-width: 91vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .projectImage {
+    display: flex;
+    flex-grow: auto;
     width: 780px;
     height: 520px;
 }
@@ -265,7 +283,6 @@ a {
     border: 1.2px;
     border-color: #F1F1F1;
     border-style: solid;
-    padding-bottom: 15px;
     background-color: #F9F9F9;
 }
 
@@ -288,7 +305,9 @@ a {
 
 .methodBox {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     width: 70vw;
     padding-top: 50px;
 }
@@ -297,6 +316,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .methodImage {

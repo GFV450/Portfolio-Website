@@ -46,7 +46,7 @@ export default function(props) {
     return (
         <div className="aboutMe" id="about">
             <TitleDescription tdCN="aboutTD" titleCN="aboutTitle" descCN="aboutDesc" title={ti} text={desc} />
-            <div className ="titleSkills">
+            <div className ="skillSection">
                 <h3 className="aboutTitle">These are some of my areas of expertise:</h3>
                 <Skill itd={skInfo} />
             </div>

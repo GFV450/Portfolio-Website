@@ -9,7 +9,7 @@ import Terminal from './terminal'
 export default class App extends Component {
   render() {
     return (
-        <div className="App">
+        <div className="app">
             <FirstScreen />
             <AboutMe />
             <Projects />
