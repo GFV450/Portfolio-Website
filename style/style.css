@@ -1,6 +1,7 @@
 body {
     font-family: "HelveticaNeue-Regular";
     height: auto;
+    background-color: rgba(237, 239, 238, 1);
 }
 
 ul {
@@ -14,8 +15,8 @@ a {
 }
 
 .app {
-    /*display: flex;
-    flex-wrap: wrap;*/
+    max-width: 1680px;
+    margin: auto;
 }
 
 /*NAV BAR*/
@@ -68,7 +69,6 @@ a {
     background-size: auto;
     background-position: top;
     height: 100vh;
-    width: 100vw;
     display: flex;
 
     background-repeat: repeat-x;
@@ -94,31 +94,21 @@ a {
     overflow: visible;
 }
 
-/*TERMINAL SCREEN*/
-/*.terminal {
-    background-image: url(../img//background/test.png);
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-}*/
-
 /*ABOUT SCREEN*/
 .aboutMe {
     position: relative;
-    min-height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 8vh;
-    padding-bottom: 2vh;
+    padding-bottom: 8vh;
     padding-left: 8vw;
     padding-right: 8vw;
     background-image: url(../img/background/about-background.jpg);
     background-position: top;
     background-size: cover;
+    min-height: 100vh;
 }
 .aboutTD {
     display: flex;
@@ -129,6 +119,7 @@ a {
 .aboutTitle {
     display: flex;
     font-family: "HelveticaNeue-Light";
+    font-size: 36px;
     margin-bottom: 0px;
     display: flex;
     padding-left: 3.5vw;
@@ -138,6 +129,7 @@ a {
 .aboutDesc {
     display: flex;
     font-family: "HelveticaNeue-Light";
+    font-size: 24px;
     color: #505050;
     margin-bottom: 0px;
     display: flex;
@@ -154,7 +146,7 @@ a {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 20px;
 
 }
@@ -162,9 +154,8 @@ a {
 .skill {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
-    height: 150px;
-    width: 350px;
 }
 .icon {
     display: flex;
@@ -177,15 +168,15 @@ a {
 .skillTitle {
     display: flex;
     font-family: "HelveticaNeue-Regular";
-    font-size: 22px;
+    font-size: 24px;
     margin: 0;
 }
 
 .skillDesc {
     display: flex;
     font-family: "HelveticaNeue-Light";
-    font-size: 14px;
-    width: 225px;
+    font-size: 24px;
+    width: 400px;
     color: #505050;
     margin: 0;
 }
@@ -202,33 +193,54 @@ a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .intellihome {
     max-width: 91vw;
-    min-height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-height: 100vh;
 }
 
 .iChallenge {
     max-width: 91vw;
-    min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: 100vh;
+}
+
+.ButterflyKnifeFight {
+    max-width: 91vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.LOTR {
+    max-width: 91vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
 .projectImage {
     display: flex;
     flex-grow: auto;
-    width: 780px;
-    height: 520px;
+    max-width: 780px;
+    max-height: 520px;
 }
 
 .infoBox {
@@ -266,11 +278,13 @@ a {
 }
 /*CONTACT*/
 .contact {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF;
+    background-image: url(../img/background/contact-background.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
 }
 
 .contactBox {
@@ -279,11 +293,6 @@ a {
     align-items: center;
     flex-direction: column;
     width: 97vw;
-    height: 94vh;
-    border: 1.2px;
-    border-color: #F1F1F1;
-    border-style: solid;
-    background-color: #F9F9F9;
 }
 
 .contactMe {
