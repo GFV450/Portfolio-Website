@@ -30,7 +30,7 @@ export default function(props) {
             {
                 projectName: "LOTR",
                 src: "../img/project/LOTR.png",
-                title: "LOTR Tweet Gen",
+                title: "Tweet Gen",
                 text: "A Lord of the Rings tweet generator built with data structures and natural language processing",
                 buttonRef: "https://github.com/GFV450/Tweet-Generator",
                 buttonDesc: "Coming soon"
