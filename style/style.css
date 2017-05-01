@@ -14,7 +14,7 @@ a {
     text-decoration: none !important;
 }
 
-p {
+p h3{
     margin: 0;
     padding: 0;
     border: 0;
@@ -213,7 +213,7 @@ p {
     flex-wrap: wrap;
     align-content: center;
     max-height: auto;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .iChallenge {
@@ -224,8 +224,7 @@ p {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    max-height: 100vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .ButterflyKnifeFight {
@@ -236,8 +235,7 @@ p {
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    max-height: 100vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .LOTR {
@@ -248,13 +246,11 @@ p {
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    max-height: 100vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .projectImage {
-    min-width: auto;
-    max-width: 100vw;
+    width: 70vw;
     height: auto;
 }
 
@@ -264,12 +260,12 @@ p {
 }
 
 .projectTD {
-    width: 350px;
 }
 
 .projectTitle {
     font-family: "TrebuchetMS-Bold";
     font-size: 64px;
+    width: 200px;
 
 }
 
@@ -278,6 +274,7 @@ p {
     text-align: justify;
     line-height: 40px;
     font-size: 24px;
+    width: 350px;
 }
 
 .projectButton {
@@ -369,7 +366,79 @@ p {
         height: 68vh;
     }
 
+    /*.intellihome {
+        height: 90vh;
+    }
+
+    .iChallenge {
+        height: 90vh;
+    }
+
+    .ButterflyKnifeFight {
+        height: 90vh;
+    }
+
+    .LOTR {
+        height: 90vh;
+    }*/
+
+    .projectImage {
+        width: 100vw;
+    }
+
+    .infoBox {
+        justify-content: space-around;
+        align-items: center;
+        height: 45vh;
+    }
+
+    .projectButton {
+        width: 45vw;
+        height: 150px;
+        font-size: 54px;
+        line-height: 150px;
+    }
+
     .projectTitle {
+        font-size: 96px;
+        width: auto;
+        text-align: center;
+
+    }
+
+    .projectDesc {
         font-size: 48px;
+        width: 80vw;
+        line-height: 70px;
+        padding-top: 60px;
+    }
+
+    .contact {
+        height: auto;
+    }
+
+    .contactTitle {
+        font-size: 144px;
+    }
+
+    .contactDesc {
+        font-size: 36px;
+    }
+
+    .methodBox {
+        flex-direction: column;
+    }
+
+    .methodImage {
+        width: 800px;
+        height: 800px;
+    }
+
+    .methodTitle {
+        font-size: 24px;
+    }
+
+    .methodHL {
+        font-size: 24px;
     }
 }
