@@ -112,12 +112,11 @@ p h3{
     background-position: top;
     background-size: cover;
     min-height: 130vh;
+    padding: 80px;
 }
 .aboutTD {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
-    padding-bottom: 20px;
 }
 
 .aboutTitle {
@@ -126,7 +125,6 @@ p h3{
     font-size: 36px;
     margin-bottom: 0px;
     display: flex;
-    padding-left: 3.5vw;
     padding-bottom: 20px;
 }
 
@@ -138,12 +136,6 @@ p h3{
     margin-bottom: 0px;
     display: flex;
     justify-content: center;
-    padding-left: 3.5vw;
-    padding-right: 3.5vw;
-}
-
-.skillSection {
-
 }
 
 .skillsBox {
@@ -161,8 +153,6 @@ p h3{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    max-width: 100vw;
-    max-width: 100vw;
 }
 .icon {
     display: flex;
@@ -337,7 +327,6 @@ p h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;
 }
 
 .methodImage {
@@ -362,12 +351,57 @@ p h3{
 
 /*Mobile devices*/
 @media only screen  and (max-device-width: 640px) {
+    /*Home*/
     .firstScreen {
         height: 68vh;
     }
 
-    /*.intellihome {
-        height: 90vh;
+    .bigTW {
+        font-size: 84px;
+        line-height: 100px;
+        height: 300px;
+    }
+
+    /*About*/
+    .aboutMe {
+        padding: 50px;
+    }
+
+    .aboutTitle {
+        padding: 0;
+        font-size: 68px;
+    }
+
+    .aboutDesc {
+        font-size: 48px;
+        padding: 0;
+    }
+
+    .skill {
+        width: 100vw;
+    }
+
+    .icon {
+        width: 200px;
+        height: 200px;
+    }
+
+    .skillsBox {
+        justify-content: flex-start;
+    }
+
+    .skillTitle {
+        font-size: 60px;
+    }
+
+    .skillDesc {
+        font-size: 40px;
+        width: 60vw;
+    }
+
+    /*Projects*/
+    .intellihome {
+        height: 95vh;
     }
 
     .iChallenge {
@@ -379,8 +413,8 @@ p h3{
     }
 
     .LOTR {
-        height: 90vh;
-    }*/
+        height: 95vh;
+    }
 
     .projectImage {
         width: 100vw;
@@ -427,18 +461,25 @@ p h3{
 
     .methodBox {
         flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contactMethod {
+        margin-bottom: 100px;
     }
 
     .methodImage {
-        width: 800px;
-        height: 800px;
+        width: 400px;
+        height: 400px;
     }
 
     .methodTitle {
-        font-size: 24px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 48px;
     }
 
     .methodHL {
-        font-size: 24px;
+        font-size: 48px;
     }
 }
