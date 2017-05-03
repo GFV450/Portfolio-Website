@@ -13,8 +13,8 @@ export default function(props) {
         {
             src: "img/icons/phone.png",
             title: "Phone",
-            contactRef: "tel:+14159632531",
-            contactDesc: "415-963-2531"
+            contactRef: "tel:+14157549603",
+            contactDesc: "415-754-9603"
         },
         {
             src: "img/icons/linkedin.png",
