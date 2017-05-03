@@ -13,7 +13,7 @@ export default function(props) {
         {
             src: "../img/icons/Concept.png",
             title:"Conceptualizing",
-            text:"I take ideas and transform them into a concept of their own. Then, I layout the design specification required \
+            text:"I take ideas and transform them into a concept of their own. Afterwards, I layout the design specification required \
                   to create a great product."
         },
         {

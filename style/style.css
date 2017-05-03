@@ -25,6 +25,7 @@ p h3{
 .app {
     max-width: 1680px;
     margin: auto;
+    overflow: hidden;
 }
 
 /*NAV BAR*/
@@ -160,6 +161,10 @@ p h3{
     align-items: center;
     flex-direction: row;
 }
+
+.skillTD {
+}
+
 .icon {
     display: flex;
     height: 50px;
@@ -182,7 +187,7 @@ p h3{
     font-family: "Roboto";
     font-weight: 100;
     font-size: 18px;
-    width: 300px;
+    width: 270px;
     color: #505050;
     margin: 0;
 }
@@ -257,13 +262,14 @@ p h3{
 }
 
 .projectTD {
+    width: 350px;
 }
 
 .projectTitle {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 64px;
-    width: 200px;
+    width: 100%;
 
 }
 
